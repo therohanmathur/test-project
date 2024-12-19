@@ -8,7 +8,12 @@ function App() {
 
   return (
     <div>
-      Hi There
+      <div>
+        Center Text
+      </div>
+      <div>
+        Right-Bottom Text
+      </div>
     </div>
   )
 }
