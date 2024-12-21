@@ -7,12 +7,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <div>
-        Center Text
+    <div className='h-screen flex flex-col justify-between items-center'>
+      <div className='flex flex-grow items-center'>
+        <p className='text-center'>Center Text</p>
       </div>
-      <div>
-        Right-Bottom Text
+      <div className='flex justify-end items-end w-full'>
+        <p className='text-right'>Right-Bottom Text</p>
       </div>
     </div>
   )
